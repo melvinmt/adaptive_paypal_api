@@ -1,3 +1,16 @@
+## API Calls
+
+This library handles API calls semantically. E.g. to make a call to `https://svcs.paypal.com/Payments/Pay` you would simply use: 
+
+```php
+PayPal::Payments()->Pay();
+```
+To retrieve the verified status of a PayPal user you would use:
+
+```php
+PayPal::Accounts()->GetVerifiedStatus();
+```
+
 ## Usage
 
 ```php

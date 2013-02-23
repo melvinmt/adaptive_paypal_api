@@ -2,7 +2,7 @@
 
 ```php
 
-// simple payment
+// simple chained payment
 
 $body = array(
   'actionType' => 'PAY',
